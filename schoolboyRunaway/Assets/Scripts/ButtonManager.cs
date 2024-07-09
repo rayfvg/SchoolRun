@@ -30,8 +30,8 @@ public class ButtonManager : MonoBehaviour
             {
                 return; // Если хотя бы одна кнопка активна, выходим из метода
             }
-        }
         open.SetActive(true);
         closed.SetActive(false);
+        }
     }
 }
